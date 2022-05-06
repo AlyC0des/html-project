@@ -32,7 +32,7 @@ const Header = () => {
                 </span>
               </i>
             </a>
-            <a className="btn bg-white d-flex align-center justify-center color-black ps-relative index-1">Our Services</a>
+            <a className="btn bg-white d-flex align-center justify-center color-black ps-relative index-1" href="/">Our Services</a>
           </div>
         </div>
       </div>

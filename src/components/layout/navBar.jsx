@@ -6,9 +6,9 @@ const NavBar = () => {
   return (
     <nav className="nav d-flex">
       <div className="container h-100 padding d-flex justify-between align-center">
-        <a className="nav_brand">
-          <img src={logo2} />
-          <img className="img-2" src={logo}/>
+        <a className="nav_brand" href="/">
+          <img src={logo2} alt="logo"/>
+          <img className="img-2" src={logo} alt="logo"/>
         </a>
         <div className="main_nav padding h-100 d-flex flex-end">
           <ul className="nav_ul d-flex align-center">
@@ -33,7 +33,7 @@ const NavBar = () => {
           </ul>
           <ul className="nav_ul_2 d-flex align-center">
             <li>
-              <a className="quote_btn d-flex align-center justify-center">Request A Quote</a>
+              <a className="quote_btn d-flex align-center justify-center" href="/">Request A Quote</a>
             </li>
             <li>
               <button className="login_btn">
