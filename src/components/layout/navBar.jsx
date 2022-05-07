@@ -7,8 +7,8 @@ const NavBar = () => {
     <nav className="nav d-flex">
       <div className="container h-100 padding d-flex justify-between align-center">
         <a className="nav_brand" href="/">
-          <img src={logo2} alt="logo"/>
-          <img className="img-2" src={logo} alt="logo"/>
+          <img className="d-none-md" src={logo2} alt="logo"/>
+          <img className="img-2 d-block-md" src={logo} alt="logo"/>
         </a>
         <div className="main_nav padding h-100 d-flex flex-end">
           <ul className="nav_ul d-flex align-center">
@@ -32,12 +32,12 @@ const NavBar = () => {
             </li>
           </ul>
           <ul className="nav_ul_2 d-flex align-center">
-            <li>
-              <a className="quote_btn d-flex align-center justify-center" href="/">Request A Quote</a>
+            <li className="d-none">
+              <a className="quote_btn td-none d-flex align-center justify-center" href="/">Request A Quote</a>
             </li>
             <li>
               <button className="login_btn">
-                <i className="user_icon">
+                <i className="user_icon text-white-lg">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"

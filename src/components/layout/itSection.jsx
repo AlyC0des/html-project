@@ -25,8 +25,8 @@ const ItSection = () => {
               </p>
             </div>
           </div>
-          <div class="card-wrap">
-            <div class="it_card">
+          <div class="card-wrap sec-row">
+            <div class="it_card sec-col-wide2 sec-col3">
               <div class="card_content">
                 <div class="it_icon mb-20">
                   <img src={img} alt="icon" />
@@ -136,7 +136,7 @@ const ItSection = () => {
                 </a>
               </div>
             </div>
-            <div class="it_card">
+            <div class="it_card sec-col-wide2 sec-col3">
               <div class="card_content">
                 <div class="it_icon mb-20">
                   <img src={img} alt="icon" />
@@ -246,7 +246,7 @@ const ItSection = () => {
                 </a>
               </div>
             </div>
-            <div class="it_card">
+            <div class="it_card sec-col-wide2 sec-col3">
               <div class="card_content">
                 <div class="it_icon mb-20">
                   <img src={img} alt="icon" />

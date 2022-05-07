@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../images/pfimage.jpg"
+import img from "../../images/pfimage.jpg";
 
 const PortofolioSection = () => {
   return (
@@ -12,15 +12,10 @@ const PortofolioSection = () => {
           </div>
           <h3 className="title color-blue align-left">Latest Case Studies</h3>
         </div>
-        <div
-          class="card-wrap wrap">
-          <div class="pf_card ">
+        <div class="wrap sec-row">
+          <div class="pf_card sec-col-wide2 sec-col3">
             <div class="pf_card_img">
-              <img
-                class="w-100 "
-                src={img}
-                alt="pf"
-              />
+              <img class="w-100 " src={img} alt="pf" />
             </div>
             <div class="pf_card_content">
               <div class="pf_cat color-green">
@@ -66,13 +61,9 @@ const PortofolioSection = () => {
               </a>
             </div>
           </div>
-          <div class="pf_card ">
+          <div class="pf_card sec-col-wide2 sec-col3">
             <div class="pf_card_img">
-              <img
-                class="w-100 "
-                src={img}
-                alt="pf"
-              />
+              <img class="w-100 " src={img} alt="pf" />
             </div>
             <div class="pf_card_content">
               <div class="pf_cat color-green">
@@ -118,13 +109,9 @@ const PortofolioSection = () => {
               </a>
             </div>
           </div>
-          <div class="pf_card ">
+          <div class="pf_card sec-col-wide2 sec-col3">
             <div class="pf_card_img">
-              <img
-                class="w-100 "
-                src={img}
-                alt="pf"
-              />
+              <img class="w-100 " src={img} alt="pf" />
             </div>
             <div class="pf_card_content">
               <div class="pf_cat color-green">
