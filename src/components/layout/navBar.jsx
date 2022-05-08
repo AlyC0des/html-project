@@ -36,7 +36,7 @@ const NavBar = () => {
               <a className="quote_btn td-none d-flex align-center justify-center" href="/">Request A Quote</a>
             </li>
             <li>
-              <button className="login_btn">
+              <button className="login_btn text-white-lg">
                 <i className="user_icon text-white-lg">
                   <svg
                     stroke="currentColor"
@@ -54,7 +54,7 @@ const NavBar = () => {
                     ></path>
                   </svg>
                 </i>
-                <span>Login</span>
+                <span className="text-lg-white">Login</span>
               </button>
             </li>
           </ul>

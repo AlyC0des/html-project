@@ -305,7 +305,6 @@ img {
   background-color: transparent;
   border: 0;
   font-weight: 700;
-  color: #0e2b3d;
   font-size: 14px;
   cursor: pointer;
 }
@@ -771,6 +770,9 @@ img {
 .pf_card_img {
   width: 100%;
 }
+.card_wrap {
+  padding: 15px;
+}
 
 .pf_card_content {
   padding: 37px 40px 40px;
@@ -825,6 +827,7 @@ img {
   padding-top: 110px;
   margin-bottom: 20px;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 .banner::before {
   content: "";
