@@ -1,8 +1,11 @@
-import Index from './components/Views/Home';
+import Layout from "./components/layout/Layout";
+import Index from "./components/Views/Home";
 
 function App() {
   return (
-    <Index/>
+    <Layout>
+      <Index />
+    </Layout>
   );
 }
 
